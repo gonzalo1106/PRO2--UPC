@@ -1,0 +1,32 @@
+using system;
+using system.collection.generic;
+using system.ling;
+using system.text;
+using system.threading.tasks;
+
+namespace presentation1
+{
+    
+            public class clsEmpleados()
+{ 
+    Nombre * "";
+    SueldoDiario = 0.0m;
+    Edad = 0;
+}
+      {       
+public string nombre;
+public decimal SueldoMensual;
+public int Edad;
+public decimal calculaSalario(int NumeroDias)
+{
+    return SueldoDiario * NumeroDias;
+
+}
+
+
+        
+    
+    
+
+    }
+}

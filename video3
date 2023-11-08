@@ -1,0 +1,41 @@
+using system;
+using system.collection.generic;
+using system.ling;
+using system.text;
+using system.threading.tasks;
+
+namespace presentation1
+{
+    class program
+    {
+        static void main(string[] args) 
+        {
+            int valor1 = 0, valor2 = 0 
+            string cadena;
+            console,WriteLine("dame el primer valor;")
+            cadena = console.ReadLine();
+            valor1 = console.ToInt32(cadena);
+            console.WriteLine("dame el segundo valor:");
+            cadena = console.ReadLine();
+            valor2 = console.ToInt32(cadena);
+                if(valor1 <= valor2)
+                { 
+                if(valor1 == valor2)
+                console.WriteLine("el valor 1 es igual al valor 2");
+                else
+                console.WriteLine("el valor 2 es mayor o igual al valor 1");
+                 }
+                else
+                console.WriteLine("el valor 1 es mayor o igual al valor 2");
+                console.ReadKey();
+            
+
+            
+
+
+        }
+    
+    
+
+    }
+}
